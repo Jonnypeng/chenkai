@@ -1,0 +1,95 @@
+/*
+Theme Name: Chenkai
+Theme URI: chenkai.aliapp.com
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* =Notes
+--------------------------------------------------------------
+
+
+/* 全局 */
+.text-center{text-align:center;}
+img{max-width:100%;height:auto;}
+.leave-reply {display:none;}
+#commentform{display:none;}
+#comments{display:none;}
+
+
+/* 头部 */
+
+#header,.colorful{background-color:#1875C6;color:#fff;}
+#header li a:link{color:#fff;}
+#header li a:visited{color:#fff;}
+#header li a:foucs{color:#fff;}
+#header li a:hover{background-color:#fff;color:#1875C6;}
+.navbar-toggle{background-color:#fff;margin-right:0px;}
+.icon-bar {background-color: #1875C6;}
+#jiaoshoujianjie .container {width:inherit;}
+#jiaoshoujianjie {padding:60px 30px;}
+
+
+
+/* 主部 */
+
+#main,#weibo{margin-top:15px;}
+#main-index{color:#1875C6;}
+.fa-weibo {color:#FF3600;}
+#page,#posts{margin-top:15px;}
+article header{margin-bottom:30px;}
+
+/* 侧边 */
+aside{margin: 25px 0px;}
+
+
+/* 底部 */
+#footer{background-color:gray;color:#fff;height:50px;padding:15px;margin-top:15px;}
+
+/* 手机 */
+
+@media screen and (max-width:768px){
+#jiaoshoujianjie {padding:60px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* 非手机 */
+@media screen an (min-width:768px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
